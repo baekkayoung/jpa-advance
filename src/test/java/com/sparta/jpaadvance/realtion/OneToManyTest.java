@@ -1,7 +1,7 @@
 package com.sparta.jpaadvance.realtion;
 
-import com.sparta.jpaadvance.Food.Food;
-import com.sparta.jpaadvance.User.User;
+import com.sparta.jpaadvance.entity.Food;
+import com.sparta.jpaadvance.entity.User;
 import com.sparta.jpaadvance.repository.FoodRepository;
 import com.sparta.jpaadvance.repository.UserRepository;
 import org.junit.jupiter.api.DisplayName;

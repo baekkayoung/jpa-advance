@@ -1,7 +1,7 @@
 package com.sparta.jpaadvance.realtion;
 
-import com.sparta.jpaadvance.Food.Food;
-import com.sparta.jpaadvance.User.User;
+import com.sparta.jpaadvance.entity.Food;
+import com.sparta.jpaadvance.entity.User;
 import com.sparta.jpaadvance.repository.FoodRepository;
 import com.sparta.jpaadvance.repository.UserRepository;
 import org.junit.jupiter.api.DisplayName;
@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 @Transactional
 @SpringBootTest
