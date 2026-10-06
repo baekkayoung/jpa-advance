@@ -1,6 +1,5 @@
-package com.sparta.jpaadvance.entity;
+package com.sparta.jpaadvance.User;
 
-import com.sparta.jpaadvance.Food.Food;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -14,12 +13,4 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-
-    @OneToOne(mappedBy = "user")
-    private Food food;
-
-    public void addFood(Food food) {
-        this.food = food;
-        food.setUser(this);
-    }
 }
