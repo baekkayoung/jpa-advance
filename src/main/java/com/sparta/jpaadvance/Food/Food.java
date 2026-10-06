@@ -1,6 +1,6 @@
 package com.sparta.jpaadvance.Food;
 
-import com.sparta.jpaadvance.User.User;
+import com.sparta.jpaadvance.entity.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
